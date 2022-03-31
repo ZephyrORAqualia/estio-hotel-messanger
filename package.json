@@ -1,0 +1,30 @@
+{
+  "name": "estio-hotel-messanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZephyrORAqualia/estio-hotel-messanger.git"
+  },
+  "author": "Luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZephyrORAqualia/estio-hotel-messanger/issues"
+  },
+  "homepage": "https://github.com/ZephyrORAqualia/estio-hotel-messanger#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.9",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-paginate-v2": "^1.6.3",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
